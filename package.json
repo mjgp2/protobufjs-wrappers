@@ -1,0 +1,30 @@
+{
+  "name": "protobufjs-wrappers",
+  "version": "1.0.0",
+  "description": "Extra wrappers for protobuf.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjgp2/protobufjs-wrappers.git"
+  },
+  "keywords": [
+    "protobufjs",
+    "struct",
+    "value"
+  ],
+  "author": "mjgp2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjgp2/protobufjs-wrappers/issues"
+  },
+  "homepage": "https://github.com/mjgp2/protobufjs-wrappers#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  },
+  "peerDependencies": {
+    "protobufjs": "^6.8.6"
+  }
+}
