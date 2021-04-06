@@ -12,7 +12,7 @@ wrappers[".google.protobuf.Timestamp"] = {
   },
 
   toObject: function(message, options) {
-      return new Date(message.seconds*1000 + Math.floor(message.nanos/1e6));
+      return new Date(Number(message.seconds)*1000 + Math.floor(Number(message.nanos)/1e6));
   }
 };
 

@@ -38,7 +38,15 @@ tape.test("google.protobuf.Struct", function (test) {
     };
     test.deepEqual(foo, expected);
 
-    const obj = Foo.toObject(foo);
+    let obj = Foo.toObject(foo);
+    test.deepEqual(obj, { foo: date });
+    
+    obj = Foo.toObject({
+        foo: {
+            "seconds": 123456n,
+            "nanos": 789e6,
+        }
+    });
     test.deepEqual(obj, { foo: date } );
 
     test.end();
