@@ -1,6 +1,6 @@
 {
   "name": "protobufjs-wrappers",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Extra wrappers for protobuf.js",
   "main": "index.js",
   "scripts": {
